@@ -1,27 +1,49 @@
-# CiscoHiring
+# Cisco SNA UI New Hire Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+## Directions:
 
-## Development server
+Create a new application that displays Employee information.
+The application should contain a `Dashboard` page and an `Add Employee Form` page.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The `Dashboard` page should do the following:
 
-## Code scaffolding
+- Display employee information in a table
+- Allow to sort all table columns in ascending and descending order
+- Load application data from the supplied JSON file
+- Contain an `Add Employee` button, which navigates to the `Add Employee Form` page
+- Update the employee table after adding a new employee
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Use the attached wireframe as an example of how the application should generally look.
 
-## Build
+## Tools:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Write the application using a JavaScript library of your choice.
+Test the application using a technology of your choice.
 
-## Running unit tests
+## Extra Credit (not required):
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Display the charts in the wireframe using a chart library of your choice.
 
-## Running end-to-end tests
+- Display a pie chart showing the number of employees by Job Title
+- Display a bar chart with the number of employees by Gender
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Example Test Cases:
 
-## Further help
+- I can build the project and run the application as per instructions given
+- I can run a test suite against the project
+- I can directly navigate to the `Dashboard` page or `Add Employee Form` page
+- Navigating to the `Dashboard` page should show a loading indicator until it loads the data (hint: Use Network Throttling in Dev Tools)
+- I can enter information in the `Add Employee Form` page and have it handle input validation
+- After adding a new employee, I should see it in the `Dashboard` page table
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+_NOTE: This is not the complete set of test cases_
+
+## Tips
+
+- Create clean code
+- Use modern APIs. Assume that no IE support is required
+- Describe the assumptions behind your implementation and what improvements you could make if you had more time
+
+## Deliverable Submission:
+
+When complete, please send a link to your project's Git repository.
