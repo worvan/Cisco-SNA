@@ -1,4 +1,5 @@
 export enum GENDER { "Male", "Female" }
+
 export interface Employee {
   name: string;
   jobTitle: string;
