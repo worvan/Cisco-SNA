@@ -25,7 +25,7 @@ export class EmployeeTableComponent implements OnInit {
     this.store.select('employeeStore').subscribe(
       result => {
         if( result && result.length >= 1) {
-          this.employeeData = result;
+          this.employeeData = [...result];
           this.pieChartData = this.getPieChartData(result);
           this.rowChartData = this.getBarChartData(result);
         }
