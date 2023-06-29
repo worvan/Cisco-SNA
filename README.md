@@ -1,3 +1,9 @@
+# Developer instructions
+- Resolve dependencies by running "npm install"
+- start the project by running "npm run start"
+
+
+---
 # Cisco SNA UI New Hire Test
 
 ## Directions:
