@@ -1,9 +1,30 @@
 .table-content {
-  max-width:80%;
+  width: 80%;
+  max-width: 1100px;
   margin: auto;
 }
 
-button {
-  padding: 0.5em 1em;
-  border-radius: 0.25em;
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  p-table {
+    width: 100%;
+  }
+}
+
+.col {
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.col + .col {
+  margin-left: 30px;
+}
+
+.add-button {
+  flex-direction: row-reverse;
+  justify-content: normal;
 }

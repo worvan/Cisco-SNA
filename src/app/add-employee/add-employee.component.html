@@ -1,1 +1,11 @@
-<p>add-employee works!</p>
+<form (ngSubmit)="onSubmit()" [formGroup]="addForm">
+  <p>Add employee</p>
+  Name <input type="text" formControlName="name">
+  Job title <input type="text" formControlName="jobTitle">
+  Tenure <input type="text" formControlName="tenure">
+  Gender <select formControlName="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+  </select>
+  <button type="submit">Add Employee</button>
+</form>

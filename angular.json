@@ -6,6 +6,9 @@
     "cisco-hiring": {
       "projectType": "application",
       "schematics": {
+        "@schematics/angular:application": {
+          "strict": false
+        },
         "@schematics/angular:component": {
           "style": "scss"
         }
