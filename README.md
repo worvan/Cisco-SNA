@@ -2,6 +2,7 @@
 - Resolve dependencies by running "npm install"
 - start the project by running "npm run start"
 - access the application on localhost:4200/
+- tests cases are not implemented yet
 
 
 ---
